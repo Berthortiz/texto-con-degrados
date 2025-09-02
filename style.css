@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+
+}
+
+.hero {
+    background-image: linear-gradient(to left, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    color: transparent;
+
+}
