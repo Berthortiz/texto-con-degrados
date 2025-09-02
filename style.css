@@ -7,14 +7,23 @@ body {
 
 }
 
+
+
 .hero {
     background-image: linear-gradient(to left, #0090F7, #BA62FC, #F2416B, #F55600);
-    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4em;
-    color: transparent;
 
+}
+
+.hero {
+    color: #0090F7;
+    /* fallback */
 }
